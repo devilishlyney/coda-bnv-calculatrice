@@ -16,35 +16,40 @@ int main()
 	if(symbol == 43)
 	{
 		int resultat = number1 + number2;
+		printf("%d %c %d = %d\n", number1, symbol, number2, resultat);
 	}
 	else if(symbol == 42)
 	{
 		int resultat = number1 * number2;
+		printf("%d %c %d = %d\n", number1, symbol, number2, resultat);
 	}
 	else if(symbol == 45)
 	{
 		int resultat = number1 - number2;
+		printf("%d %c %d = %d\n", number1, symbol, number2, resultat);
 	}
 	else if(symbol == 47)
 	{
 		if(number2 == 0)
 		{
-			printf("t pas le couteau le plus croquant du paquet")
+			printf("t pas le couteau le plus croquant du paquet\n");
 		}
 		else
 		{
 		double resultat = (double)number1 / (double)number2;
+		printf("%d %c %d = %.2f\n", number1, symbol, number2, resultat);
 		}
 	}
 	else if(symbol == 37)
 	{
 		if(number2 == 0)
 		{
-		printf("t pas le pingouin le plus aiguisé du tiroir")
+		printf("t pas le pingouin le plus aiguisé du tiroir\n");
 		}
 		else
 		{
 		int resultat = number1 % number2;
+		printf("%d %c %d = %d\n", number1, symbol, number2, resultat);
 		}
 	}
 	else
